@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         marginVertical: 5,
         alignItems: 'center',
         borderRadius: 5,
-        top: 60
+        top: 40
     },
     text: {
         fontWeight: 'bold',

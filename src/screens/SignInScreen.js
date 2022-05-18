@@ -28,6 +28,11 @@ const SignInscreen = () => {
 
   };
 
+  const createAccount=()=>{
+    console.warn('create account')
+
+  };
+
 
 
   return (
@@ -40,9 +45,7 @@ const SignInscreen = () => {
   <CusumButton  bgColor="#E7EAF4" fgColor="#4765A9"  text="sign in widh facebook " onPress={signInWidhFacebook} />
   <CusumButton  bgColor='#fae9eA' fgColor='#dd4d44' text="sign in widh google " onPress={signInWidhGoogle} />
   <CusumButton   bgColor='#e3e3e3' fgColor='#363636' text="sign in widh Apple " onPress={signInWidhApple} />
-  
- 
-  
+  <CusumButton  text="Don't have an account? Create one" onPress={createAccount} type="TERITARY"/>
 
     </View>
   )
